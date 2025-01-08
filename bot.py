@@ -4,8 +4,8 @@ from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
 
-SLACK_APP_TOKEN = "xapp-1-A08708SFQLC-8232954410581-1b3dbbd38814ffa5dff18a32e80f4272f5a13b94cef8942b3c26d6466d360115"
-SLACK_BOT_TOKEN = "xoxb-8219170797511-8235807991762-fEYRndQ4i5dQOBH7W537cUnG"
+SLACK_APP_TOKEN = "app token"
+SLACK_BOT_TOKEN = "bot token"
 SERVICE_ACCOUNT_FILE = "slack-chat-data-a17194b40b7d.json"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
